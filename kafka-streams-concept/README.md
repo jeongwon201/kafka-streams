@@ -1,6 +1,6 @@
-# Kafka Streams API
+# Kafka Streams Concept
 
-Kafka Streams API 에 대한 설명입니다.   
+Kafka Streams 개념에 대한 설명입니다.   
 <br />
 
 Kafka Streams Docs 를 참고하면서 작성하였습니다.   
