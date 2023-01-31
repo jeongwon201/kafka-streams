@@ -128,7 +128,7 @@ class Example {
 streams.start();
 ```
 다른 곳(ex: 다른 머신)에서 이 스트림 처리 애플리케이션의 다른 인스턴스 실행 중인 경우 Kafka Streams 은 기존 인스턴스에서 방금 시작한 새 인스턴스로 작업을 투명하게 재할당합니다.   
-자세한 내용은 <a href="https://github.com/jeongwon201/kafka-streams/tree/main/kafka-streams-architecture#stream-partition-task">스트림 파티션과 작업</a> 및 <a href="https://github.com/jeongwon201/kafka-streams/tree/main/kafka-streams-architecture#threading-model">스레딩 모델</a> 을 참조하세요 .   
+자세한 내용은 <a href="https://github.com/jeongwon201/kafka-streams/tree/main/kafka-streams-architecture#stream-partition-task" target="_blank">스트림 파티션과 작업</a> 및 <a href="https://github.com/jeongwon201/kafka-streams/tree/main/kafka-streams-architecture#threading-model" target="_blank">스레딩 모델</a> 을 참조하세요 .   
 <br />
 
 예기치 않은 예외를 포착하려면 애플리케이션을 시작하기 전에 `java.lang.Thread.UncaughtExceptionHandler`를 설정할 수 있습니다.   
