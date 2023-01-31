@@ -21,6 +21,8 @@ Kafka Streams 은 Kafka 생산자 및 소비자 라이브러리를 기반으로 
 <br />
 <br />
 
+<div id="stream-partition-task"/>
+
 ## 스트림 파티션과 작업
 Kafka 의 메시징 계층은 데이터를 저장하고 전송하기 위해 데이터를 분할합니다.   
 Kafka Streams 은 데이터를 처리하기 위해 데이터를 분할합니다.   
@@ -72,6 +74,8 @@ Kafka Streams 는 리소스 관리자가 아니라 스트림 처리 애플리케
 <br />
 <br />
 <br />
+
+<div id="threading-model"/>
 
 ## 스레딩 모델
 Kafka Streams 을 사용 하면 라이브러리가 애플리케이션 인스턴스 내에서 처리를 병렬화하는 데 사용할 수 있는 스레드 수를 구성할 수 있습니다.   
